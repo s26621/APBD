@@ -4,7 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        //Console.WriteLine("Hello, World!");
+        
+        Console.WriteLine("Hello, World!");
         int[] tablica = { 1, 2, 3, 4 };
         Console.WriteLine("Suma tablicy to: " + SumaTablicy(tablica));
         Console.WriteLine("Srednia tablicy to: " + SredniaTablicy(tablica));
