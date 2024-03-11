@@ -8,7 +8,7 @@ class Program
         int[] tablica = { 1, 2, 3, 4 };
         Console.WriteLine("Suma tablicy to: " + SumaTablicy(tablica));
         Console.WriteLine("Srednia tablicy to: " + SredniaTablicy(tablica));
-        
+        Console.WriteLine("Maks tablicy to: " + MaksTablicy(tablica));
     }
     
     public static int SumaTablicy(int[] tablica)
@@ -26,5 +26,15 @@ class Program
         int suma = SumaTablicy(tablica);
         return suma / tablica.Length;
     }
-    
+    public static int MaksTablicy(int[] tablica)
+    {
+        int min = tablica[0];
+        foreach (int val in tablica)
+        {
+            if (val < min) min = val;
+        }
+
+        return min;
+    }
+
 }
