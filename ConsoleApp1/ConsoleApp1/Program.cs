@@ -21,10 +21,10 @@ class Program
 
         return suma;
     }
-    public static int SredniaTablicy(int[] tablica)
+    public static int SredniaTablicy(int[] tablica)git git 
     {
-        int suma = SumaTablicy(tablica);
-        return suma / tablica.Length;
+        int sumka = SumaTablicy(tablica);
+        return sumka / tablica.Length;
     }
 
 }
