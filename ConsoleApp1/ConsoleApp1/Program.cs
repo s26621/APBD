@@ -25,8 +25,8 @@ class Program
     }
     public static int SredniaTablicy(int[] tablica)
     {
-        int suma = SumaTablicy(tablica);
-        return suma / tablica.Length;
+        int sum = SumaTablicy(tablica);
+        return sum / tablica.Length;
     }
     public static int MaksTablicy(int[] tablica)
     {
