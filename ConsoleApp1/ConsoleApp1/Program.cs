@@ -7,7 +7,7 @@ class Program
         //Console.WriteLine("Hello, World!");
         int[] tablica = { 1, 2, 3, 4 };
         Console.WriteLine("Suma tablicy to: " + SumaTablicy(tablica));
-        
+        Console.WriteLine("Srednia tablicy to: " + SredniaTablicy(tablica));
     }
     
     public static int SumaTablicy(int[] tablica)
@@ -19,6 +19,11 @@ class Program
         }
 
         return suma;
+    }
+    public static int SredniaTablicy(int[] tablica)
+    {
+        int suma = SumaTablicy(tablica);
+        return suma / tablica.Length;
     }
 
 }
